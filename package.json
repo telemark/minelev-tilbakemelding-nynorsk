@@ -1,0 +1,54 @@
+{
+  "name": "minelev-tilbakemelding-nynorsk",
+  "description": "Modul for tilbakemeldinger på nynorsk for minelev",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "minelev",
+    "telemark",
+    "telemark fylkeskommune",
+    "louie"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/minelev-tilbakemelding-nynorsk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/minelev-tilbakemelding-nynorsk/issues"
+  },
+  "homepage": "https://github.com/telemark/minelev-tilbakemelding-nynorsk#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.2.1",
+    "nyc": "11.7.1",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "0.2.0"
+  }
+}
