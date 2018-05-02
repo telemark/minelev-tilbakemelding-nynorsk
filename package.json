@@ -49,6 +49,6 @@
     "standard": "11.0.1"
   },
   "dependencies": {
-    "@sindresorhus/slugify": "0.2.0"
+    "@sindresorhus/slugify": "0.3.0"
   }
 }
