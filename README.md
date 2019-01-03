@@ -17,5 +17,3 @@ console.log(translate('Du er for sen til undervisning'))
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of minelev-tilbakemelding-nynorsk](https://robots.kebabstudios.party/minelev-tilbakemelding-nynorsk.png "Robohash image of minelev-tilbakemelding-nynorsk")
