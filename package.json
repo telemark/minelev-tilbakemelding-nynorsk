@@ -1,7 +1,7 @@
 {
   "name": "minelev-tilbakemelding-nynorsk",
   "description": "Modul for tilbakemeldinger på nynorsk for minelev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
