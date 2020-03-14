@@ -48,6 +48,6 @@
     "standard": "12.0.1"
   },
   "dependencies": {
-    "@sindresorhus/slugify": "0.9.1"
+    "@sindresorhus/slugify": "0.11.0"
   }
 }
